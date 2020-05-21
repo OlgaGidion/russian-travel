@@ -6,42 +6,5 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/lead/lead.css);
+@import url(../blocks/intro/intro.css);
 
-
-.intro {
-  margin-top: 55px;
-  padding: 0 442px 0 148px;
-}
-
-@media (max-width: 1280px) {
-  .intro {
-    margin-top: 92px;
-    padding: 0 286px 0 48px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .intro {
-    margin-top: 88px;
-    padding: 0 24px;
-  }
-}
-
-@media (max-width: 768px) {
-  .intro {
-    margin-top: 64px;
-    padding: 0 16px;
-  }
-}
-
-.intro__text {
-  margin-top: 40px;
-}
-
-.intro__list {
-  margin: 32px 0 0 0;
-  list-style-type: none;
-  padding-left: 0;
-  font-size: 12px;
-  line-height: 18px;
-}

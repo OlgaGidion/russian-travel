@@ -5,5 +5,7 @@
 @import url(./_size/text_size_xl.css);
 
 .text {
+  /* color: limegreen; */
+
   margin: 0;
 }
