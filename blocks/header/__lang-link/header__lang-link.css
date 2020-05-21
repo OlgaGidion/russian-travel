@@ -7,3 +7,9 @@
 .header__lang-link:visited {
   color: inherit;
 }
+
+@media (max-width: 768px) {
+  .header__lang-link {
+    font-size: 18px;
+  }
+}

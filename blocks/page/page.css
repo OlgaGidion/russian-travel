@@ -1,7 +1,14 @@
 .page {
   /* background: tomato; */
+  min-width: 320px;
+  max-width: 1440px;
   margin: 0 auto;
   padding-top: 28px;
   font-family: 'Inter', sans-serif;
-  /* max-width: 1440px; */
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding-top: 16px;
+  }
 }
