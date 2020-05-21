@@ -1,5 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/text/text.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
@@ -7,7 +9,6 @@
 
 
 .intro {
-  background-color: green;
   margin-top: 55px;
   padding: 0 442px 0 148px;
 }
@@ -33,24 +34,8 @@
   }
 }
 
-.intro__title {
-  margin: 0;
-  font-size: 54px;
-  line-height: 58px;
-  font-weight: 900;
-}
-
-@media (max-width: 768px) {
-  .intro__title {
-    font-size: 32px;
-    line-height: 35px;
-  }
-}
-
 .intro__text {
   margin-top: 40px;
-  font-size: 16px;
-  line-height: 26px;
 }
 
 .intro__list {
@@ -62,5 +47,5 @@
 }
 
 .intro__list-item {
-  /* font-weight: bold; */
+  font-weight: bold;
 }
