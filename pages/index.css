@@ -39,13 +39,9 @@
 }
 
 .intro__list {
-  margin-top: 32px;
+  margin: 32px 0 0 0;
   list-style-type: none;
   padding-left: 0;
   font-size: 12px;
   line-height: 18px;
-}
-
-.intro__list-item {
-  font-weight: bold;
 }
