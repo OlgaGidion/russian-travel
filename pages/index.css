@@ -11,14 +11,20 @@
 .photo-grid {
   margin-top: 92px;
   padding: 0 48px;
+}
+
+.photo-grid__list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 16px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 @media (max-width: 1280px) {
-  .photo-grid {
+  .photo-grid__list {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-gap: 14px;
@@ -29,6 +35,9 @@
   .photo-grid {
     margin-top: 88px;
     padding: 0 24px;
+  }
+
+  .photo-grid__list {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     grid-gap: 16px;
@@ -39,6 +48,9 @@
   .photo-grid {
     margin-top: 64px;
     padding: 0 16px;
+  }
+
+  .photo-grid__list {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(12, 1fr);
     grid-gap: 12px;
@@ -56,6 +68,50 @@
   background-position: center;
 }
 
+.photo-grid__image_train {
+  background-image: url(../images/photo-grid-train.jpg);
+}
+
+.photo-grid__image_arisaatharva-tulsi {
+  background-image: url(../images/photo-grid-atharva-tulsi.jpg);
+}
+
+.photo-grid__image_tuman {
+  background-image: url(../images/photo-grid-tuman.jpg);
+}
+
+.photo-grid__image_sochi {
+  background-image: url(../images/photo-grid-sochi.jpg);
+}
+
 .photo-grid__image_arisa {
   background-image: url(../images/photo-grid-arisa.jpg);
+}
+
+.photo-grid__image_baikal-first {
+  background-image: url(../images/photo-grid-baikal.jpg);
+}
+
+.photo-grid__image_elbrus {
+  background-image: url(../images/photo-grid-elbrus.jpg);
+}
+
+.photo-grid__image_kondratiev {
+  background-image: url(../images/photo-grid-kondratiev.jpg);
+}
+
+.photo-grid__image_kamchatka-first {
+  background-image: url(../images/photo-grid-kamchatka-1.jpg);
+}
+
+.photo-grid__image_kamchatka-second {
+  background-image: url(../images/photo-grid-kamchatka-2.jpg);
+}
+
+.photo-grid__image_baikal-second {
+  background-image: url(../images/photo-grid-baikal-2.jpg);
+}
+
+.photo-grid__image_ergaki {
+  background-image: url(../images/photo-grid-ergaki.jpg);
 }
