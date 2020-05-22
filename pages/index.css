@@ -8,3 +8,57 @@
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/photo-grid/photo-grid.css);
+
+.places {
+  margin-top: 92px;
+  padding: 0 148px;
+}
+
+.place {
+  background-color: royalblue;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 48px 40px;
+  margin-bottom: 62px;
+}
+
+.place:last-child {
+  margin-bottom: 0;
+}
+
+.place__website {
+  background-color: yellowgreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.place__url-heading {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #AAAAAA;
+}
+
+.place__link {
+  margin-top: 12px;
+  color: white;
+}
+
+.place__link:visited {
+  color: white;
+}
+
+.place__image {
+  display: block;
+  width: 100%;
+}
+
+.place__description {
+  margin-bottom: 24px;
+}
+
+.place__description:last-child {
+  margin-bottom: 0;
+}
