@@ -1,0 +1,7 @@
+.place__description-paragraph {
+  margin-bottom: 24px;
+}
+
+.place__description-paragraph:last-child {
+  margin-bottom: 0;
+}
