@@ -1,0 +1,8 @@
+.link, .link:visited {
+  color: white;
+  transition: opacity 0.2s;
+}
+
+.link:hover {
+  opacity: 0.8;
+}

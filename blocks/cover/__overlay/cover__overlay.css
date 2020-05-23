@@ -1,4 +1,9 @@
 .cover__overlay {
   background-color: rgba(0, 0, 0, 0.3);
   height: 100%;
+  transition: background-color 0.3s;
+}
+
+.cover__overlay:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
