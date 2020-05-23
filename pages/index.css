@@ -13,3 +13,35 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/cover/cover.css);
 
+
+.footer {
+  display: flex;
+  margin: 92px 0 24px 0;
+  padding: 0 48px;
+}
+
+.footer__links {
+  list-style-type: none;
+  display: flex;
+  flex-grow: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__link {
+  margin-right: 18px;
+}
+
+.footer__link:last-child {
+  margin-right: 0;
+}
+
+.footer__link-item {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  margin: 0;
+}
