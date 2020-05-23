@@ -13,10 +13,9 @@
 
 
 .cover {
-  margin-top: 164px;
   position: relative;
-
-  height: 740px;
+  margin-top: 164px;
+  padding-bottom: calc((100% - 2 * 48px) * 0.625);
 }
 
 .cover__image {
