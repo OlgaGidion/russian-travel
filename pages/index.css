@@ -13,16 +13,29 @@
 
 
 .cover {
-  margin: 164px 48px 0 48px;
-  background-image: url(../images/cover-trains.jpg);
-  background-size: cover;
-  background-position: center;
+  margin-top: 164px;
+  position: relative;
 
   height: 740px;
 }
 
+.cover__image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 48px;
+  right: 48px;
+  background-image: url(../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.cover__overlay {
+  background-color: rgba(255, 0, 0, 0.5);
+  height: 100%;
+}
+
 .cover__description {
-  background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
   justify-content: center;
