@@ -1,9 +1,4 @@
 .place__link {
   margin-top: 12px;
   font-size: 18px;
-  color: white;
-}
-
-.place__link:visited {
-  color: white;
 }
