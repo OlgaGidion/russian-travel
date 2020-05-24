@@ -35,8 +35,11 @@
   }
 }
 
-.footer__links-list {
+.footer__links {
   flex-grow: 1;
+}
+
+.footer__links-list {
   list-style-type: none;
   display: flex;
   padding: 0;
