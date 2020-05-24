@@ -2,26 +2,27 @@
 @import url(./__list/intro__list.css);
 
 .intro {
-  margin-top: 55px;
-  padding: 0 30% 0 10%;
+  margin-top: 4.3%;
+  padding: 0 34.5% 0 11.5%;
 }
 
 @media (max-width: 1279px) {
   .intro {
-    margin-top: 92px;
-    padding: 0 22% 0 4%;
+    margin-top: 8.9%;
+    padding: 0 27.9% 0 4.6%;
   }
 }
 
 @media (max-width: 1023px) {
   .intro {
-    margin-top: 88px;
-    padding: 0 2%;
+    margin-top: 11.4%;
+    padding: 0 3.1%;
   }
 }
 
 @media (max-width: 767px) {
   .intro {
-    margin-top: 64px;
+    margin-top: 20%;
+    padding: 0 5%;
   }
 }
