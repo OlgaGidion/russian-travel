@@ -6,21 +6,21 @@
 
 .footer {
   display: flex;
-  margin: 92px 0 24px 0;
-  padding: 0 48px;
+  margin: 7.2% 0 1.9% 0;
+  padding: 0 3.8%;
 }
 
 @media (max-width: 1023px) {
   .footer {
-    margin: 88px 0 24px 0;
-    padding: 0 24px;
+    margin: 11.5% 0 3.1% 0;
+    padding: 0 3.1%;
   }
 }
 
 @media (max-width: 767px) {
   .footer {
     flex-direction: column;
-    margin: 64px 0 24px 0;
-    padding: 0 16px;
+    margin: 20% 0 7.5% 0;
+    padding: 0 5%;
   }
 }

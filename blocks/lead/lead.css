@@ -4,14 +4,14 @@
 @import url(./__caption/lead__caption.css);
 
 .lead {
-  padding: 0 193px 0 93px;
-  margin-top: 93px;
+  padding: 0 15% 0 7.2%;
+  margin-top: 7.2%;
 }
 
 @media (max-width: 1279px) {
   .lead {
-    padding: 0 48px;
-    margin-top: 48px;
+    padding: 0 4.7%;
+    margin-top: 4.7%;
   }
 }
 
