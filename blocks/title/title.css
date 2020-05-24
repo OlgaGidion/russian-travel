@@ -3,8 +3,6 @@
 @import url(./_size/title_size_l.css);
 
 .title {
-  /* color: red; */
-
   margin: 0;
   font-weight: 900;
   line-height: 1.1;
