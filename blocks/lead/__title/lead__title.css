@@ -4,7 +4,7 @@
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .lead__title {
     width: 288px;
   }

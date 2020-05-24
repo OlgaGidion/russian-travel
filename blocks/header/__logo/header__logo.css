@@ -2,7 +2,7 @@
   display: block;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .header__logo {
     height: 42px;
   }
