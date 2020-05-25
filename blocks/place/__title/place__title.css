@@ -1,8 +1,2 @@
 .place__title {
 }
-
-@media (max-width:768px) {
-  .place__title {
-    padding: 0 16px;
-  }
-}
