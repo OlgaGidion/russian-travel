@@ -1,20 +1,14 @@
 .cover__title {
-  width: 48%;
+  max-width: 560px;
+  margin: 0;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1.1;
 }
 
-@media (max-width: 1279px) {
-  .cover__title {
-    width: 56%;
-  }
-}
-
-@media (max-width: 1023px) {
-  .cover__title {
-    width: 74%;
-  }
-}
 @media (max-width: 767px) {
   .cover__title {
-    width: 75%;
+    max-width: 288px;
+    font-size: 32px;
   }
 }
