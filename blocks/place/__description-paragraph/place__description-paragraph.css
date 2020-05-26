@@ -1,7 +1,15 @@
 .place__description-paragraph {
-  margin-bottom: 24px;
+  margin: 0 0 24px 0;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 .place__description-paragraph:last-child {
-  margin-bottom: 0;
+  margin: 0;
+}
+
+@media (max-width: 1023px) {
+  .place__description-paragraph {
+    font-size: 16px;
+  }
 }

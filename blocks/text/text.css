@@ -1,8 +1,0 @@
-@import url(./_size/text_size_s.css);
-@import url(./_size/text_size_m.css);
-@import url(./_size/text_size_l.css);
-@import url(./_size/text_size_xl.css);
-
-.text {
-  margin: 0;
-}
