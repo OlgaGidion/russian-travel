@@ -1,6 +1,6 @@
 .link, .link:visited {
   color: white;
-  transition: opacity 0.2s;
+  transition: opacity ease-out 0.2s;
 }
 
 .link:hover {
