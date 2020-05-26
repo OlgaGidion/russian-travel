@@ -15,20 +15,20 @@
 
 
 .photo-grid {
-  margin-top: 7.2%;
-  padding: 0 3.7%;
+  margin-top: 92px;
+  padding: 0 48px;
 }
 
 @media (max-width: 1023px) {
   .photo-grid {
-    margin-top: 11.4%;
-    padding: 0 3.1%;
+    margin-top: 88px;
+    padding: 0 24px;
   }
 }
 
 @media (max-width: 767px) {
   .photo-grid {
-    margin-top: 20%;
-    padding: 0 5%;
+    margin-top: 64px;
+    padding: 0 16px;
   }
 }
