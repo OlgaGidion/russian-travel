@@ -1,8 +1,25 @@
 .place__website {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   align-items: flex-start;
+  align-self: end;
+
+  /*
+  В Chrome-based браузерах в отличие от Firefox "align-self" в значении "last baseline" не работает, поэтому использую "transform".
+  */
+  transform: translateY(-12px);
+}
+
+@media (max-width: 1279px) {
+  .place__website {
+    transform: translateY(-11px);
+  }
+}
+
+@media (max-width: 1023px) {
+  .place__website {
+    transform: translateY(-6px);
+  }
 }
 
 @media (max-width: 767px) {
