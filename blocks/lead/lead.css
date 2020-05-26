@@ -5,17 +5,11 @@
 @import url(./__caption/lead__caption.css);
 
 .lead {
-  margin-top: 64px;
+  margin-top: 56px;
 }
 
 @media (max-width: 1279px) {
   .lead {
-    margin-top: 56px;
-  }
-}
-
-@media (max-width: 767px) {
-  .lead {
-    margin-top: 40px;
+    margin-top: 48px;
   }
 }

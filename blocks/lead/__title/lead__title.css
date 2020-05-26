@@ -9,6 +9,13 @@
 
 @media (max-width: 767px) {
   .lead__title {
+    width: 504px;
+    font-size: 68px;
+  }
+}
+
+@media (max-width: 545px) {
+  .lead__title {
     width: 288px;
     font-size: 40px;
   }
